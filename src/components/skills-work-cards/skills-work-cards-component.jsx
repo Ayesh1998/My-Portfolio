@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { CardDeck, Card, Button } from "react-bootstrap";
 import Aos from "aos";
+import "./skills-work-cards-styles.scss";
+import { FaArrowDown } from "react-icons/fa";
 
 const SkillsWorkCards = (prop) => {
   useEffect(() => {
@@ -22,6 +24,10 @@ const SkillsWorkCards = (prop) => {
             <Card.Text>
               JavaScript, Java, C, Python, ReactJS, React Native, Dart, Flutter,
               etc....
+              <br />
+              <div class="arrow bounce">
+                <FaArrowDown size="25px" />
+              </div>
             </Card.Text>
           </Card.Body>
           <Card.Footer style={{ textAlign: "center" }}>
@@ -40,6 +46,10 @@ const SkillsWorkCards = (prop) => {
             <Card.Title>My Work</Card.Title>
             <Card.Text>
               Mobile Applications, Web Applications, Desktop Apps, etc....{" "}
+              <br />
+              <div class="arrow bounce">
+                <FaArrowDown size="25px" />
+              </div>
             </Card.Text>
           </Card.Body>
           <Card.Footer style={{ textAlign: "center" }}>
@@ -58,6 +68,10 @@ const SkillsWorkCards = (prop) => {
             <Card.Title>Other Skills</Card.Title>
             <Card.Text>
               Time Managment, Data Structures & Algorithms, etc....
+              <br />
+              <div class="arrow bounce">
+                <FaArrowDown size="25px" />
+              </div>
             </Card.Text>
           </Card.Body>
           <Card.Footer style={{ textAlign: "center" }}>
