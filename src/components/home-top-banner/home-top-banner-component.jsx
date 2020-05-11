@@ -109,19 +109,17 @@ const HomeTopBanner = (prop) => {
               color: "white",
             }}
           >
-            <p style={{ marginTop: "5%", fontWeight: 600, fontSize: "17px" }}>
+            <p style={{ marginTop: "1.5%", fontWeight: 600, fontSize: "23px" }}>
               I am a human with multiple-talents. <br />I spent most of the time
-              designing and building
-              <br /> digital products like web sites, mobile applications, APIs
-              etc.
-              <br />
-              So, you can call me as a front-end developer,
-              <br />
-              back-end developer,product designer, UX,UI designer,
-              <br /> native or hybrid mobile designer or product manager.
-              <br />
-              I love travelling, playing computer games, playing cricket
-              <br /> and watching sci-fi movies
+              designing and <br />
+              building digital products like web sites, <br />
+              mobile applications, APIs etc. So, you <br />
+              can call me as a front-end developer,
+              <br /> back-end developer,product designer, <br />
+              UX,UI designer, native or hybrid mobile <br /> designer or product
+              manager. I love
+              <br /> travelling, playing computer games,
+              <br /> playing cricket and watching sci-fi movies
             </p>
           </Jumbotron>
         </div>
