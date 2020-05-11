@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Image, Jumbotron } from "react-bootstrap";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const HomeTopBanner = (props) => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="home-top-banner">
       <div className="home-top-banner-image" style={{ position: "relative" }}>
@@ -19,6 +25,9 @@ const HomeTopBanner = (props) => {
             right: "17%",
             width: "100%",
           }}
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="800"
         >
           <Jumbotron
             style={{
@@ -46,6 +55,8 @@ const HomeTopBanner = (props) => {
         </div>
         <div
           className="home-banner-mydetailsBottomRight"
+          data-aos="fade-left"
+          data-aos-delay="800"
           style={{
             position: "absolute",
             textAlign: "right",
@@ -70,6 +81,9 @@ const HomeTopBanner = (props) => {
         </div>
         <div
           className="home-banner-mydetailsMiddle"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
           style={{
             position: "absolute",
             textAlign: "center",
@@ -94,6 +108,8 @@ const HomeTopBanner = (props) => {
                   marginLeft: "10px",
                   paddingRight: "8px",
                 }}
+                data-aos="fade-down"
+                data-aos-duration="3000"
               >
                 {" "}
                 UX/UI Designer{" "}
@@ -104,6 +120,8 @@ const HomeTopBanner = (props) => {
                   marginLeft: "10px",
                   paddingRight: "8px",
                 }}
+                data-aos="fade-left"
+                data-aos-duration="3000"
               >
                 {" "}
                 Frontend Developer{" "}
@@ -113,6 +131,8 @@ const HomeTopBanner = (props) => {
                   marginLeft: "10px",
                   paddingRight: "8px",
                 }}
+                data-aos="fade-left"
+                data-aos-duration="3000"
               >
                 {"  "}
                 Backend Developer{" "}
