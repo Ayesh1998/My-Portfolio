@@ -7,7 +7,7 @@ const MyNavbar = (props) => {
       <Navbar
         collapseOnSelect
         expand="lg"
-        style={{ backgroundColor: "black" }}
+        style={{ backgroundColor: "black", zIndex: "1" }}
         variant="dark"
       >
         <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
