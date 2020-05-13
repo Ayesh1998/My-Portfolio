@@ -86,45 +86,10 @@ const HomeTopBanner = (prop) => {
         <img
           src={require("../../assets/black_background_fabric-wallpaper-2560x1440.jpg")}
           alt=""
-          style={{ width: "100%", height: "90vh" }}
+          style={{ width: "100%", height: "100vh" }}
         />
-        <div
-          className="home-banner-mydetailsTopLeft"
-          style={{
-            position: "absolute",
-            textAlign: "left",
-            top: "-4%",
-            right: "17%",
-            width: "100%",
-          }}
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-delay="800"
-        >
-          <Jumbotron
-            style={{
-              width: "67%",
-              margin: "0px auto",
-              backgroundColor: "rgba(21, 19, 19, 0)",
-              color: "white",
-            }}
-          >
-            <p style={{ marginTop: "1.5%", fontWeight: 600, fontSize: "23px" }}>
-              I am a human with multiple-talents. <br />I spent most of the time
-              designing and <br />
-              building digital products like web sites, <br />
-              mobile applications, APIs etc. So, you <br />
-              can call me as a front-end developer,
-              <br /> back-end developer,product designer, <br />
-              UX,UI designer, native or hybrid mobile <br /> designer or product
-              manager. I love
-              <br /> travelling, playing computer games,
-              <br /> playing cricket and watching sci-fi movies
-            </p>
-          </Jumbotron>
-        </div>
 
-        <div
+        {/* <div
           className="home-banner-mydetailsBottomRight"
           data-aos="fade-left"
           data-aos-delay="800"
@@ -149,7 +114,7 @@ const HomeTopBanner = (prop) => {
               <br />
             </p>
           </Jumbotron>
-        </div>
+        </div> */}
       </div>
       {/* 
       <div>
@@ -210,14 +175,13 @@ const HomeTopBanner = (prop) => {
         className="home-banner-mydetailsMiddle"
         data-aos="fade-up"
         data-aos-duration="1000"
-        data-aos-easing="ease"
         style={{
           border: "3px white solid",
           position: "absolute",
           textAlign: "center",
           top: "45%",
           margin: "0 auto",
-          width: "31%",
+          width: "35%",
           right: "30%",
           transform: middleNameAnimation.xys.interpolate(
             transmiddleNameAnimation
@@ -231,13 +195,14 @@ const HomeTopBanner = (prop) => {
         <Jumbotron
           style={{
             width: "100%",
-            padding: "0px",
+            padding: "16px",
             margin: "0px 0px",
             backgroundColor: "rgba(21, 19, 19, 0)",
             color: "white",
           }}
         >
-          <h1>I'm Ayesh Lakshan</h1>
+          <h1 style={{ display: "inline" }}>Hello.. I'm </h1>
+          <h1 style={{ color: "#DE25B0", display: "inline" }}>Ayesh Lakshan</h1>
           <div>
             <span
               style={{

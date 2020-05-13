@@ -5,6 +5,7 @@ const MyNavbar = (props) => {
   return (
     <div>
       <Navbar
+        fixed="top"
         collapseOnSelect
         expand="lg"
         style={{ backgroundColor: "black", zIndex: "1" }}
