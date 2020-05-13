@@ -23,10 +23,10 @@ const MyselfTopQoute = () => {
     >
       <Jumbotron
         style={{
-          padding: "0px 0px",
+          padding: "9px",
           border: "3px #4D4B4B solid",
           borderRadius: "10px",
-          boxShadow: "3px 5px 3px #4D4B4B",
+          // boxShadow: "3px 5px 3px #4D4B4B",
           width: "81%",
           margin: "0px auto",
           backgroundColor: "rgba(21, 19, 19, 0)",
