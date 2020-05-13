@@ -4,6 +4,7 @@ import HomeTopBanner from "../components/home-top-banner/home-top-banner-compone
 import SkillsWorkCards from "../components/skills-work-cards/skills-work-cards-component";
 import ProgrammingSkills from "../components/programming-skills/programming-skills-component";
 import MyselfTopQoute from "../components/myself-top-qoute/myself-top-qoute-component";
+import SkillBar from "../components/skill-bar/skill-bar-component";
 
 const HomePage = (props) => {
   return (

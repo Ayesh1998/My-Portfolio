@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./programming-skills-styles.scss";
 import Aos from "aos";
+import SkillBar from "../skill-bar/skill-bar-component";
 
 const ProgrammingSkills = () => {
   useEffect(() => {
@@ -10,9 +11,7 @@ const ProgrammingSkills = () => {
 
   return (
     <div className="container">
-      <div class="progress">
-        <div class="progress-value"></div>
-      </div>
+      <SkillBar skillLevel="20" skill="Java" />
     </div>
   );
 };

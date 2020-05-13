@@ -12,7 +12,7 @@ const MyselfTopQoute = () => {
     <div
       className="home-banner-mydetailsTopLeft"
       style={{
-        marginTop: "20px",
+        marginTop: "35px",
         textAlign: "center",
         // top: "-4%",
         // right: "17%",
