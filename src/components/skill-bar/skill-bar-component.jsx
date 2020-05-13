@@ -6,7 +6,7 @@ const SkillBar = (props) => {
   return (
     <div className="container">
       <div className="row oneSkill">
-        <div class="col-9 progress2 progress-moved">
+        <div class="col-12 progress2 progress-moved">
           <div className="row">
             <div className="col-1.5 oneSkillTitle" style={{ margin: "auto" }}>
               <span>{props.skill}</span>
