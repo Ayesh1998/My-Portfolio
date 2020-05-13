@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Lemonade";
+  src: local("Lemonade"), url(./fonts/Lemonada-Medium.ttf) format("woff");
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: local("WorkSans"), url(./fonts/WorkSans-Medium.ttf) format("woff");
+}

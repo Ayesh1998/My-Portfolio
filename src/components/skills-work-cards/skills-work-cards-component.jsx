@@ -17,11 +17,18 @@ const SkillsWorkCards = (prop) => {
           <Card.Img
             variant="top"
             src={require("../../assets/coding-skills.png")}
-            style={{ width: "63%", height: "45%", margin: "10px auto" }}
+            style={{
+              width: "63%",
+              height: "45%",
+              margin: "10px auto",
+              fontFamily: "Work Sans",
+            }}
           />
           <Card.Body>
-            <Card.Title>Programming Skills</Card.Title>
-            <Card.Text>
+            <Card.Title style={{ fontFamily: "Work Sans", fontWeight: "800" }}>
+              Programming Skills
+            </Card.Title>
+            <Card.Text style={{ fontFamily: "Work Sans" }}>
               JavaScript, Java, C, Python, ReactJS, React Native, Dart, Flutter,
               etc....
               <br />
@@ -31,7 +38,14 @@ const SkillsWorkCards = (prop) => {
             </Card.Text>
           </Card.Body>
           <Card.Footer style={{ textAlign: "center" }}>
-            <Button variant="dark" style={{ margin: "0px auto", width: "60%" }}>
+            <Button
+              variant="dark"
+              style={{
+                margin: "0px auto",
+                width: "60%",
+                fontFamily: "Work Sans",
+              }}
+            >
               Programming Skills
             </Button>
           </Card.Footer>
@@ -43,8 +57,10 @@ const SkillsWorkCards = (prop) => {
             style={{ width: "63%", height: "45%", margin: "10px auto" }}
           />
           <Card.Body>
-            <Card.Title>My Work</Card.Title>
-            <Card.Text>
+            <Card.Title style={{ fontFamily: "Work Sans", fontWeight: "800" }}>
+              My Work
+            </Card.Title>
+            <Card.Text style={{ fontFamily: "Work Sans" }}>
               Mobile Applications, Web Applications, Desktop Apps, etc....{" "}
               <br />
               <div class="arrow bounce">
@@ -53,7 +69,14 @@ const SkillsWorkCards = (prop) => {
             </Card.Text>
           </Card.Body>
           <Card.Footer style={{ textAlign: "center" }}>
-            <Button variant="dark" style={{ margin: "0px auto", width: "60%" }}>
+            <Button
+              variant="dark"
+              style={{
+                margin: "0px auto",
+                width: "60%",
+                fontFamily: "Work Sans",
+              }}
+            >
               My Work
             </Button>
           </Card.Footer>
@@ -65,8 +88,10 @@ const SkillsWorkCards = (prop) => {
             style={{ width: "63%", height: "45%", margin: "10px auto" }}
           />
           <Card.Body>
-            <Card.Title>Other Skills</Card.Title>
-            <Card.Text>
+            <Card.Title style={{ fontFamily: "Work Sans", fontWeight: "800" }}>
+              Other Skills
+            </Card.Title>
+            <Card.Text style={{ fontFamily: "Work Sans" }}>
               Time Managment, Data Structures & Algorithms, etc....
               <br />
               <div class="arrow bounce">
@@ -75,7 +100,14 @@ const SkillsWorkCards = (prop) => {
             </Card.Text>
           </Card.Body>
           <Card.Footer style={{ textAlign: "center" }}>
-            <Button variant="dark" style={{ margin: "0px auto", width: "60%" }}>
+            <Button
+              variant="dark"
+              style={{
+                margin: "0px auto",
+                width: "60%",
+                fontFamily: "Work Sans",
+              }}
+            >
               Other Skills
             </Button>
           </Card.Footer>

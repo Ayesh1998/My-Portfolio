@@ -181,7 +181,7 @@ const HomeTopBanner = (prop) => {
           textAlign: "center",
           top: "45%",
           margin: "0 auto",
-          width: "35%",
+          width: "38%",
           right: "30%",
           transform: middleNameAnimation.xys.interpolate(
             transmiddleNameAnimation
@@ -202,7 +202,15 @@ const HomeTopBanner = (prop) => {
           }}
         >
           <h1 style={{ display: "inline" }}>Hello.. I'm </h1>
-          <h1 style={{ color: "#DE25B0", display: "inline" }}>Ayesh Lakshan</h1>
+          <h1
+            style={{
+              color: "#DE25B0",
+              display: "inline",
+              fontFamily: "Lemonada",
+            }}
+          >
+            Ayesh Lakshan
+          </h1>
           <div>
             <span
               style={{

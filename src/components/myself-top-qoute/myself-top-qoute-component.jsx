@@ -18,9 +18,8 @@ const MyselfTopQoute = () => {
         // right: "17%",
         width: "100%",
       }}
-      data-aos="flip-right"
+      data-aos="fade-up"
       data-aos-duration="1000"
-      data-aos-delay="300"
     >
       <Jumbotron
         style={{
@@ -32,9 +31,17 @@ const MyselfTopQoute = () => {
           margin: "0px auto",
           backgroundColor: "rgba(21, 19, 19, 0)",
           color: "#545353",
+          fontFamily: "Lemonada",
         }}
       >
-        <p style={{ marginTop: "1.5%", fontWeight: 600, fontSize: "23px" }}>
+        <p
+          style={{
+            marginTop: "1.5%",
+            fontWeight: 600,
+            fontFamily: "Lemonada",
+            fontSize: "23px",
+          }}
+        >
           I am a human with multiple-talents. I spent most of the time designing
           and building digital products like web sites, mobile applications,
           APIs etc. So, you can call me as a front-end developer, back-end
