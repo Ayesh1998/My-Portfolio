@@ -81,7 +81,11 @@ const HomeTopBanner = (prop) => {
     <div className="home-top-banner">
       <div
         className="home-top-banner-image"
-        style={{ position: "relative", cursor: "pointer" }}
+        style={{
+          position: "relative",
+          cursor: "pointer",
+          borderBottom: "5px #29CFF9 solid",
+        }}
       >
         <img
           src={require("../../assets/black_background_fabric-wallpaper-2560x1440.jpg")}
@@ -176,7 +180,7 @@ const HomeTopBanner = (prop) => {
         data-aos="fade-up"
         data-aos-duration="1000"
         style={{
-          border: "3px white solid",
+          border: "3px rgb(41, 207, 249) solid",
           position: "absolute",
           textAlign: "center",
           top: "45%",

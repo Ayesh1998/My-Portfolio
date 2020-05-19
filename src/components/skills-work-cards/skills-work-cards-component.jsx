@@ -11,108 +11,146 @@ const SkillsWorkCards = (prop) => {
   }, []);
 
   return (
-    <div className="container" style={{ marginTop: "5%", marginBottom: "5%" }}>
-      <CardDeck style={{ textAlign: "center" }}>
-        <Card data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-          <Card.Img
-            variant="top"
-            src={require("../../assets/coding-skills.png")}
-            style={{
-              width: "63%",
-              height: "45%",
-              margin: "10px auto",
-              fontFamily: "Work Sans",
-            }}
-          />
-          <Card.Body>
-            <Card.Title style={{ fontFamily: "Work Sans", fontWeight: "800" }}>
-              Programming Skills
-            </Card.Title>
-            <Card.Text style={{ fontFamily: "Work Sans" }}>
-              JavaScript, Java, C, Python, ReactJS, React Native, Dart, Flutter,
-              etc....
-              <br />
-              <div class="arrow bounce">
-                <FaArrowDown size="25px" />
-              </div>
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer style={{ textAlign: "center" }}>
-            <Button
-              variant="dark"
+    <div className="skillsWorkCardsContainer">
+      <div
+        className="container skillsWorkCardsContainer"
+        style={{ marginTop: "5%", marginBottom: "5%" }}
+      >
+        <CardDeck style={{ textAlign: "center" }}>
+          <Card
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            style={{ borderRadius: "10px" }}
+          >
+            <Card.Img
+              variant="top"
+              src={require("../../assets/coding-skills.png")}
               style={{
-                margin: "0px auto",
-                width: "60%",
+                width: "63%",
+                height: "45%",
+                margin: "10px auto",
                 fontFamily: "Work Sans",
               }}
-            >
-              Programming Skills
-            </Button>
-          </Card.Footer>
-        </Card>
-        <Card data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-          <Card.Img
-            variant="top"
-            src={require("../../assets/my-work.png")}
-            style={{ width: "63%", height: "45%", margin: "10px auto" }}
-          />
-          <Card.Body>
-            <Card.Title style={{ fontFamily: "Work Sans", fontWeight: "800" }}>
-              My Work
-            </Card.Title>
-            <Card.Text style={{ fontFamily: "Work Sans" }}>
-              Mobile Applications, Web Applications, Desktop Apps, etc....{" "}
-              <br />
-              <div class="arrow bounce">
-                <FaArrowDown size="25px" />
-              </div>
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer style={{ textAlign: "center" }}>
-            <Button
-              variant="dark"
-              style={{
-                margin: "0px auto",
-                width: "60%",
-                fontFamily: "Work Sans",
-              }}
-            >
-              My Work
-            </Button>
-          </Card.Footer>
-        </Card>
-        <Card data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-          <Card.Img
-            variant="top"
-            src={require("../../assets/skills.png")}
-            style={{ width: "63%", height: "45%", margin: "10px auto" }}
-          />
-          <Card.Body>
-            <Card.Title style={{ fontFamily: "Work Sans", fontWeight: "800" }}>
-              Other Skills
-            </Card.Title>
-            <Card.Text style={{ fontFamily: "Work Sans" }}>
-              Time Managment, Data Structures & Algorithms, etc....
-              <br />
-              <div class="arrow bounce">
-                <FaArrowDown size="25px" />
-              </div>
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer style={{ textAlign: "center" }}>
-            <Button
-              variant="dark"
-              style={{
-                margin: "0px auto",
-                width: "60%",
-                fontFamily: "Work Sans",
-              }}
-            >
-              Other Skills
-            </Button>
-          </Card.Footer>
-        </Card>
-      </CardDeck>
+            />
+            <Card.Body>
+              <Card.Title
+                style={{
+                  fontFamily: "Work Sans",
+                  fontWeight: "800",
+                  color: "#E41AEF",
+                }}
+              >
+                Programming Skills
+              </Card.Title>
+              <Card.Text style={{ fontFamily: "Work Sans" }}>
+                JavaScript, Java, C, Python, ReactJS, React Native, Dart,
+                Flutter, etc....
+                <br />
+                <div class="arrow bounce">
+                  <FaArrowDown size="25px" />
+                </div>
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer style={{ textAlign: "center" }}>
+              <Button
+                variant="dark"
+                style={{
+                  margin: "0px auto",
+                  width: "60%",
+                  fontFamily: "Work Sans",
+                }}
+              >
+                Programming Skills
+              </Button>
+            </Card.Footer>
+          </Card>
+          <Card
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+            style={{ borderRadius: "10px" }}
+          >
+            <Card.Img
+              variant="top"
+              src={require("../../assets/my-work.png")}
+              style={{ width: "63%", height: "45%", margin: "10px auto" }}
+            />
+            <Card.Body>
+              <Card.Title
+                style={{
+                  fontFamily: "Work Sans",
+                  fontWeight: "800",
+                  color: "#E41AEF",
+                }}
+              >
+                My Work
+              </Card.Title>
+              <Card.Text style={{ fontFamily: "Work Sans" }}>
+                Mobile Applications, Web Applications, Desktop Apps, etc....{" "}
+                <br />
+                <div class="arrow bounce">
+                  <FaArrowDown size="25px" />
+                </div>
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer style={{ textAlign: "center" }}>
+              <Button
+                variant="dark"
+                style={{
+                  margin: "0px auto",
+                  width: "60%",
+                  fontFamily: "Work Sans",
+                }}
+              >
+                My Work
+              </Button>
+            </Card.Footer>
+          </Card>
+          <Card
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+            style={{ borderRadius: "10px" }}
+          >
+            <Card.Img
+              variant="top"
+              src={require("../../assets/skills.png")}
+              style={{ width: "63%", height: "45%", margin: "10px auto" }}
+            />
+            <Card.Body>
+              <Card.Title
+                style={{
+                  fontFamily: "Work Sans",
+                  fontWeight: "800",
+                  color: "#E41AEF",
+                }}
+              >
+                Other Skills
+              </Card.Title>
+              <Card.Text style={{ fontFamily: "Work Sans" }}>
+                Time Managment, Data Structures & Algorithms, etc....
+                <br />
+                <div class="arrow bounce">
+                  <FaArrowDown size="25px" />
+                </div>
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer style={{ textAlign: "center" }}>
+              <Button
+                variant="dark"
+                style={{
+                  margin: "0px auto",
+                  width: "60%",
+                  fontFamily: "Work Sans",
+                }}
+              >
+                Other Skills
+              </Button>
+            </Card.Footer>
+          </Card>
+        </CardDeck>
+      </div>
     </div>
   );
 };

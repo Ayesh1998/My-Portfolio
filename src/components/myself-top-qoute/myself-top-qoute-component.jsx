@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Jumbotron } from "react-bootstrap";
 import Aos from "aos";
-
+import "./myself-top-qoute-styles.scss";
 const MyselfTopQoute = () => {
   useEffect(() => {
     // void reset();
@@ -21,15 +21,16 @@ const MyselfTopQoute = () => {
       data-aos="fade-up"
       data-aos-duration="1000"
     >
-      <Jumbotron
+      <div
+        className="myselfTopQouteJumbo"
         style={{
           padding: "9px",
-          border: "3px #4D4B4B solid",
+          // border: "3px #4D4B4B solid",
           borderRadius: "10px",
           // boxShadow: "3px 5px 3px #4D4B4B",
           width: "81%",
           margin: "0px auto",
-          backgroundColor: "rgba(21, 19, 19, 0)",
+          backgroundColor: "none",
           color: "#545353",
           fontFamily: "Lemonada",
         }}
@@ -49,7 +50,7 @@ const MyselfTopQoute = () => {
           designer or product manager. I love travelling, playing computer
           games, playing cricket and watching sci-fi movies
         </p>
-      </Jumbotron>
+      </div>
     </div>
   );
 };

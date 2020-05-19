@@ -22,14 +22,17 @@ const SkillBar = (props) => {
       >
         <div class="col-12 progress2 progress-moved">
           <div className="row">
-            <div
+            {/* <div
               className="col-1.5 oneSkillTitle"
               style={{ margin: "auto", fontFamily: "Work Sans" }}
             >
-              <span>{props.skill}</span>
-            </div>
-            <div class="col-10" style={{ margin: "auto 0px", padding: "0px" }}>
-              <div className={classNameColor} id={widths}></div>
+              
+            </div> */}
+            <div class="col-12" style={{ margin: "auto 0px", padding: "0px" }}>
+              <div className={classNameColor} id={widths}>
+                <span className="oneSkillTitleSkill">{props.skillLevel}%</span>
+                <div className="oneSkillTitle">{props.skill}</div>
+              </div>
             </div>
           </div>
         </div>

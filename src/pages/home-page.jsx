@@ -5,6 +5,7 @@ import SkillsWorkCards from "../components/skills-work-cards/skills-work-cards-c
 import ProgrammingSkills from "../components/programming-skills/programming-skills-component";
 import MyselfTopQoute from "../components/myself-top-qoute/myself-top-qoute-component";
 import SkillBar from "../components/skill-bar/skill-bar-component";
+import OtherSkills from "../components/other-skills/other-skills-component";
 
 const HomePage = (props) => {
   return (
@@ -14,6 +15,7 @@ const HomePage = (props) => {
       <MyselfTopQoute />
       <SkillsWorkCards />
       <ProgrammingSkills />
+      <OtherSkills />
 
       <div className="container"></div>
     </div>

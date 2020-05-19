@@ -18,16 +18,16 @@ $background: #2c303a;
 }
 
 .progress2 {
-  border: 2px #3d3c3c solid;
+  // border: 2px #3d3c3c solid;
   margin: 3px;
   border-radius: 3px;
   background: rgb(211, 210, 210);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(44, 6, 6, 0.08);
+  // box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(44, 6, 6, 0.08);
 }
 
 .progress-bar2 {
   height: 13px;
-  border-radius: 3px;
+  // border-radius: 3px;
   background-image: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0.3),
@@ -38,17 +38,29 @@ $background: #2c303a;
 }
 
 .oneSkillTitle {
-  color: rgb(59, 58, 58);
-  font-size: 14px;
-  font-weight: 700;
+  width: 125px;
+  /* margin: auto; */
+  text-align: center;
+  background-color: #04c2c9;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
 }
 
-.oneSkill {
-  margin-bottom: 2px;
+.oneSkillTitleSkill {
+  float: right;
+  padding: 2px 10px 0px 0px;
+  color: #333637;
+  font-size: 13px;
+  font-weight: 300;
 }
+
+// .oneSkill {
+//   margin-bottom: 2px;
+// }
 
 .progress-bar3 {
-  height: 16px;
+  height: 25px;
   border-radius: 3px;
   background-image: linear-gradient(
     to bottom,
@@ -59,11 +71,11 @@ $background: #2c303a;
   transition-property: width, background-color;
 }
 .color1 {
-  background-color: #615e5f;
+  background-color: #00a1a7;
 }
 
 .color2 {
-  background-color: #c21f55;
+  background-color: #00a1a7;
 }
 
 // .progress-moved .progress-bar3 {

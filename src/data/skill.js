@@ -41,6 +41,22 @@ export const programmingSkills = [
     timeDelay: 0,
   },
   {
+    skill: "MongoDB",
+    level: "75",
+    timeDelay: 234,
+  },
+  {
+    skill: "MySQL",
+    level: "70",
+    timeDelay: 234,
+  },
+
+  {
+    skill: "Firebase",
+    level: "70",
+    timeDelay: 234,
+  },
+  {
     skill: "NodeJS",
     level: "70",
     timeDelay: 234,
@@ -76,7 +92,12 @@ export const programmingSkills = [
     timeDelay: 23,
   },
   {
-    skill: "SprintBoot/Jax-rx",
+    skill: "SprintBoot",
+    level: "60",
+    timeDelay: 0,
+  },
+  {
+    skill: "JAX-RS",
     level: "60",
     timeDelay: 0,
   },
@@ -86,7 +107,12 @@ export const programmingSkills = [
     timeDelay: 232,
   },
   {
-    skill: "Kotlin/AndroidSDK",
+    skill: "Kotlin",
+    level: "55",
+    timeDelay: 0,
+  },
+  {
+    skill: "AndroidSDK",
     level: "55",
     timeDelay: 0,
   },
@@ -99,23 +125,23 @@ export const programmingSkills = [
 
 export const otherSkills = [
   {
-    skill: "Photoshop",
-    level: "90",
-    timeDelay: "1",
-  },
-  {
-    skill: "HTML",
-    level: "90",
-    timeDelay: "0",
-  },
-  {
-    skill: "CSS/SASS",
-    level: "90",
+    skill: "Adobe XD",
+    level: "70",
     timeDelay: "1580",
   },
   {
-    skill: "Bootstrap",
-    level: "85",
+    skill: "Photoshop",
+    level: "60",
+    timeDelay: "1",
+  },
+  {
+    skill: "Illustrator",
+    level: "50",
+    timeDelay: "0",
+  },
+  {
+    skill: "JUnit",
+    level: "45",
     timeDelay: "1620",
   },
   {
