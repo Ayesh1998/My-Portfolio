@@ -14,7 +14,7 @@ const OtherSkills = () => {
 
   console.log(programmingSkills);
   return (
-    <div className="otherSkillsContainer">
+    <div className="otherSkillsContainer" id="otherSkillssMove">
       <main class="page-content">
         <div
           class="cards card1"

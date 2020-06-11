@@ -19,7 +19,7 @@ const MyNavbar = (props) => {
             <Nav.Link href="#pricing">Pricing</Nav.Link> */}
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">My Work</Nav.Link>
+            <Nav.Link href="#otherSkillssMove">My Work</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               Contact Me
             </Nav.Link>
